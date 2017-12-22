@@ -1,5 +1,1 @@
-github "SwiftyJSON/SwiftyJSON"
-github "Alamofire/Alamofire" ~> 4.4
-github "xmartlabs/Eureka" ~> 2.0
-github "marketplacer/Cosmos" ~> 8.0
-github "bahlo/SwiftGif" ~> 1.6.1
+

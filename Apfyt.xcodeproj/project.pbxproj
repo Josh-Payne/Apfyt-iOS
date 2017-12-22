@@ -502,14 +502,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Apfyt/Pods-Apfyt-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/OpenCV/opencv2.framework",
 				"${BUILT_PRODUCTS_DIR}/ResearchKit/ResearchKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/opencv2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ResearchKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -690,12 +688,7 @@
 				);
 				INFOPLIST_FILE = Apfyt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/opencv2.framework\\ 2",
-					"$(PROJECT_DIR)/opencv2.framework\\ 2/Versions/A",
-					"$(PROJECT_DIR)/opencv2.framework\\ 2/Versions/Current",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = io.apfyt.Apfyt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Apfyt/Apfyt-Bridging-Header.h";
@@ -721,12 +714,7 @@
 				);
 				INFOPLIST_FILE = Apfyt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/opencv2.framework\\ 2",
-					"$(PROJECT_DIR)/opencv2.framework\\ 2/Versions/A",
-					"$(PROJECT_DIR)/opencv2.framework\\ 2/Versions/Current",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = io.apfyt.Apfyt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Apfyt/Apfyt-Bridging-Header.h";

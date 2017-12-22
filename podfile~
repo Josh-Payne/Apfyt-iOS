@@ -9,7 +9,7 @@ use_frameworks!
 
 
 target 'Apfyt' do
-    pod 'OpenCV2'
+    pod 'OpenCV'
     pod 'ResearchKit', :git => 'https://github.com/ResearchKit/ResearchKit'
     pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON'
     pod 'Alamofire'

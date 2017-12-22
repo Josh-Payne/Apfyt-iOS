@@ -1,0 +1,19 @@
+{
+  "commitish" : "1.4.1",
+  "iOS" : [
+    {
+      "name" : "ResearchKit",
+      "md5" : "c362668439cf02dde76d0fe58f963da3"
+    }
+  ],
+  "xcodeVersion" : "Xcode 8.2.1\nBuild version 8C1002",
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "Mac" : [
+
+  ]
+}
