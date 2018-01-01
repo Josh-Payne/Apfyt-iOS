@@ -25,6 +25,5 @@ return HKBiologicalSex.other
         return nil
 ```
 
-This repository has been moved to omit frameworks with large file sizes. The
-author is currently working on other projects and will return soon to implement
+This repository has been moved to omit frameworks with large file sizes. I'm currently working on other projects and will return soon to implement
 the principles of OOP learned in CS 108.
